@@ -1,1 +1,7 @@
- 
+disables ip-addresses via hosts.deny after three failed ssh-logins 
+
+must run with root-privilege
+
+normaly started via 
+
+    mcp -D
