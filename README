@@ -1,4 +1,4 @@
-disables ip-addresses via hosts.deny after three failed ssh-logins 
+disables ip-addresses via hosts.deny after three times failed ssh-logins 
 
 must run with root-privilege
 
