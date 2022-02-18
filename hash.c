@@ -38,7 +38,7 @@ HASH *hash_install(HASH **hashtab, char *ipstr)
   unsigned hashval;
 
   if ((np = hash_lookup(hashtab, ipstr)) == NULL) {
-    np = malloc(sizeof(*np));
+    np = malloc(sizeof(HASH));
     strcpy(np->ipstr, ipstr);
     np->count = 0;
     hashval = hash_make(ipstr);

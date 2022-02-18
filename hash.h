@@ -10,6 +10,6 @@ typedef struct _hash HASH;
 
 struct _hash {
   struct _hash  *next;
-  char           ipstr[16];
+  char           ipstr[1024];
   unsigned long  count;
 };

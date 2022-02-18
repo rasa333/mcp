@@ -68,7 +68,7 @@ static void usage()
 }
 
 
-main(int argc, char **argv)
+int main(int argc, char **argv)
 {
   FILE *f;
   char buf[1024], *p, *q;

@@ -9,6 +9,7 @@
 #include <errno.h>
 #include <libgen.h>
 #include <string.h>
+#include <ctype.h>
 
 #include "defs.h"
 

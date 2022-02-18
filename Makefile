@@ -1,5 +1,5 @@
 CC             = gcc
-CFLAGS         = -O5 -Wunused
+CFLAGS         = -O -Wunused
 LDFLAGS        = -s
 
 %.o : %.c $(wildcard *.h)
@@ -8,7 +8,7 @@ LDFLAGS        = -s
 objects        		     := $(patsubst %.c,%.o,$(wildcard *.c))
 
 
-mcp	: $(objects)
+all mcp	: $(objects)
 	$(CC) $(LDFLAGS) -o mcp $(objects)
 
 
